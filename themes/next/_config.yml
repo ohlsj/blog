@@ -48,9 +48,9 @@ index_with_subtitle: false
 menu:
   home: /
   #categories: /categories/
-  #archives: /archives/
   tags: /tags/
-  about: /about/
+  archives: /archives/
+  #about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404/
 
@@ -92,6 +92,7 @@ scheme: Muse
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/ohlsj
+  E-Mail: mailto:ohlsj@hotmail.com
 
 # Social Links Icons
 # Icon Mapping:
