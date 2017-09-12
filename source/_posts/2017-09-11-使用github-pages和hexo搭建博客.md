@@ -1,7 +1,9 @@
 ---
 title: 使用github pages和hexo搭建博客
 date: 2017-09-11 21:15:27
-tags: hexo github
+tags:
+- hexo
+- github
 ---
 参考文章:
 
@@ -62,7 +64,7 @@ curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | g
 |   └── _posts
 └── themes
 ```
-目录的用途：
+目录结构说明：
 
 - `_config.yml`: 项目的配置文件
 - `scaffolds`: 模板文件夹
@@ -102,7 +104,7 @@ timezone: Asia/Shanghai
 theme: next
 ```
 
-然后修改主题的配置文件
+然后修改主题的配置文件，这里是配置菜单
 
 ```
 menu:
@@ -114,6 +116,10 @@ menu:
 ## 其他配置
 
 ### 创建`tags`和`about`页面
+
+刚才配置好了菜单，却发现`tags`页面和`about`页面都是404。原因是`next`主题默认没有开启这些页面，需要手动开启。
+
+首先创建两个页面
 
 ```
 hexo new page "about"
@@ -147,6 +153,8 @@ deploy:
 ```
 
 # 部署项目
+
+> 需要先配置好github的ssh key
 
 ```
 hexo clean
