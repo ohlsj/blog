@@ -1,7 +1,6 @@
 ---
 title: Python之禅的密码学原理
 date: 2017-09-13 09:49:38
-description: python之禅的密码学原理
 keywords: python, zen, cryptography, python之禅, 密码学
 tags:
  - python
