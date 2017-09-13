@@ -1,5 +1,5 @@
 ---
-title: git修改历史commit的用户名和邮箱
+title: 修改git历史提交的用户名和邮箱
 date: 2017-09-12 17:00:14
 tags:
  - git
